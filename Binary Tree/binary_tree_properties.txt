@@ -1,0 +1,11 @@
+1. the maximum number of nodes at level 'l' of a binary tree is 2^(l-1)
+2. the maximum number of nodes in a binary tree of height 'h' is 2^h - 1
+3. minimum possible height or minimum number of levels is log2(n+1)
+4. binary tree with 'l' leaves has at least log2(l) + 1 levels
+5. l = I + 1 (for full binary tree) l -> leaf nodes, I -> internal nodes
+6. Full binary tree: if every node has 0 or 2 children
+7. Complete binary tree: if all levels are completely filled except possibly the last level and the last level has all keys as left as possible.
+8. Perfect binary tree: if all internal nodes have two children and all leaves are at same level
+9. Balanced binary tree: if height of the tree is O(logn). eg. AVL tree, Red black tree. These are performance wise good as time for search, insert and delete is O(logn).
+
+
