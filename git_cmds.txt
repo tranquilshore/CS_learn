@@ -1,0 +1,18 @@
+1. touch filename -> to create a file
+2. git init -> to initialize any folder as git repo
+3. git config --global user.name 'username' -> to sync with github account
+4. git config --global user.email 'email'
+5. git add filename/*.extension -> to track the file on git
+6. git add . -> to add all files inside the folder
+7. git status -> to check the status/changes
+8. git rm --cached filename -> to remove the file from git
+9. git commit -> to commit the file, bring it out of the staging area of adding the file
+10. git commit -m filename -> without the need of vim editor
+11. git branch branchname -> to create a branch other than master
+12. git checkout branchname -> to switch to this branch
+13. git merge branchname -> to merge the new added features
+14. git remote add origin link-> to sync with github
+15. git push -u origin master -> to push the code to github
+16. git clone
+17. git pull
+18. rm -rf .git -> opposite of git init
