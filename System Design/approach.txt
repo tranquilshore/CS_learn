@@ -1,0 +1,38 @@
+1. Use Cases and Constraints
+2. Abstract design(like app layer, data layer)
+3. Understanding bottlenecks (like system needs load balancer to handle user requests, or data is huge that you need to distribute it, or database is too slow and in memory caching is required)
+4. Scalability (scalability principles, what they are, understanding how they are used, and being able to discuss their pros and cons)
+
+
+Scalability:
+vertical scaling: like getting better ram , storage(SATA(7200 rpm), SAAS(15000rpm ), SSD(faster, no moving part, electrically performs), CPUs(more of everything)
+
+horizontal scaling: cheaper resources with better functionality, with connecting more machines, now we gonna send the request to all the connected servers, we need to come up with a load balancer to balanced the work on backend servers
+1. load balancer can be like a dns server, give the job to servers one by one and return to first one. i.e. a round robin fashion
+2. load balancing with BIND
+
+
+#online file repository system
+
+1. Use cases:
+- to store and retrieve files i.e. download/upload
+- secure the data
+- to make it available to other people
+- archiving
+
+
+2. features:
+- seamless scalability, ability to increase capacity/performance with zero time
+- 100% availability, 100% of the time: including scheduled maintenance
+- optimal capacity utilization
+- interoperability: to allow timely upgrades and adoption of new tech
+- manageability
+
+3. security:
+- sftp
+- file encoding
+4. scalability
+
+5. HLD:
+- application layer (to login/ upload/ download data)
+- storage layer (to handle large data/ scalable)
