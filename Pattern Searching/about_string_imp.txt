@@ -1,0 +1,12 @@
+algorithms and techniques used for pattern searching based upon following:
+
+1. Preprocess Pattern :  KMP Algorithm, Rabin Karp Algorithm, Finite Automata, Boyer Moore Algorithm.
+
+2. Preprocess Text : Suffix Tree (it is preferred when text doesn’t change very frequently and there are many search queries)
+
+* best possible time complexity achieved by first (preprocssing pattern) is O(n) and by second (preprocessing text) is O(m)
+
+* In suffix tree, the idea is, every pattern that is present in text (or we can say every substring of text) must be a prefix of one of all possible suffixes.
+
+
+
