@@ -158,6 +158,25 @@ class LinkedList:
         temp = currx.next
         currx.next = curry.next
         curry.next = temp
+        
+    def getNth(self, index):
+        current = self.head
+        count = 0
+        while current:
+            if count == index:
+                return current.data
+            count += 1
+            current = current.next
+        return 0
+    
+    def print_middle(self, node):
+        slow = self.head
+        fast = self.head
+        if head != None:
+            while fast != None and fast.next != None:
+                fast = fast.next.next
+                slow = slow.next
+            return slow.data
     
         
 #linked list with 3 nodes
