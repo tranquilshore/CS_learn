@@ -27,6 +27,21 @@ def childsum_iterative(root):
 			s.append(current.left)
 	return True
 
+def childsum_recursive(root):
+    left_data = 0
+    right_data = 0
+    if root is None or (root.left is None and root.right is None):
+        return 1
+    else:
+        if node.left is not None:
+            left_data = root.left.data
+        if node.right is not None:
+            right_data = root.right.data
+        if root.data == left_data + right_data and childsum_recursive(root.left) and childsum_recursive(root.right):
+            return 1
+        else:
+            return 0
+
 
 root = Node(10)
 root.left = Node(8)
