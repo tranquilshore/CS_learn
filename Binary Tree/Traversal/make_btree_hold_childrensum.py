@@ -35,6 +35,14 @@ def converttree(root):
             root.data += diff
         if diff < 0:
             increment(root, -diff)
+            
+#O(n)   
+def tosumtree(root):
+    if root is None:
+        return 0
+    old_val = root.data
+    root.data = tosumtree(root.left) + tosumtree(root.right)
+    return root.data + old_val
 
 def inorder(root):
     if root is None:
