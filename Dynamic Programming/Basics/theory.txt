@@ -1,0 +1,9 @@
+1. Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again.
+
+2. Like Divide and Conquer, Dynamic Programming combines solutions to sub-problems. Dynamic Programming is mainly used when solutions of same subproblems are needed again and again. 
+
+3. Following are the two main properties of a problem that suggest that the given problem can be solved using Dynamic programming:
+	a. Overlapping Subproblems
+		i. Memoization (Top Down): The memoized program for a problem is similar to the recursive version with a small modification that it looks into a lookup table before computing solutions.
+		ii. Tabulation (Bottom Up)
+	b. Optimal Substructure
