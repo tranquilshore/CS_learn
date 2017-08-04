@@ -1,4 +1,4 @@
-1. Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again.
+1. Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again.Dynamic Programming (DP) is a technique that solves some particular type of problems in Polynomial Time.
 
 2. Like Divide and Conquer, Dynamic Programming combines solutions to sub-problems. Dynamic Programming is mainly used when solutions of same subproblems are needed again and again. 
 
@@ -6,4 +6,17 @@
 	a. Overlapping Subproblems
 		i. Memoization (Top Down): The memoized program for a problem is similar to the recursive version with a small modification that it looks into a lookup table before computing solutions.
 		ii. Tabulation (Bottom Up)
-	b. Optimal Substructure
+	b. Optimal Substructure: A given problems has Optimal Substructure Property if optimal solution of the given problem can be obtained by using optimal solutions of its subproblems
+
+How to solve a Dynamic Programming Problem ?
+
+step 1. Classifying a problem as a dp problem
+
+All dynamic programming problems satisfy the overlapping subproblems property and most of the classic dynamic problems also satisfy the optimal substructure property. Once, we observe these properties in a given problem, be sure that it can be solved using DP.
+
+step 2.  Deciding the state
+A state can be defined as the set of parameters that can uniquely identify a certain position or standing in the given problem. This set of parameters should be as small as possible to reduce state space.
+For example: In our famous Knapsack problem, we define our state by two parameters index and weight i.e DP[index][weight].
+
+step 3. Formulating a relation among the states
+This part is the hardest part of for solving a DP problem and requires a lots of intuition, observation and practice.
