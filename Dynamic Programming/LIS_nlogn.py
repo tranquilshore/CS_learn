@@ -32,7 +32,7 @@ def LIS(arr):
     for i in range(0,length):
         print LIS[i]
             
-arr = [3,4,-1,0,6,2,3]
+arr = [3,4,1,15,9,12,16,21,20,25]
 LIS(arr)
 
         
