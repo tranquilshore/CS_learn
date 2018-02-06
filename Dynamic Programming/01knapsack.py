@@ -9,9 +9,13 @@ else:
     -> j-wt[i] weight remain after selecting i
 
 '''
+val = [9,9,9,10,6]
+wt = [1,2,1,2,1]
+W = 3
+n = len(val)
 
+k = [[None]*(W+1) for i in range(n+1)]
 def knapsack(W, wt, val, n):
-    k = [[None]*(W+1) for i in range(n+1)]
     
     for i in range(n+1):
         for j in range(W+1):
@@ -23,12 +27,15 @@ def knapsack(W, wt, val, n):
                 k[i][j] = k[i-1][j]
     return k[n][W]
 
-val = [60, 100, 120]
-wt = [10, 20, 30]
-W = 50
 
-n = len(val)
 print knapsack(W, wt, val, n)
+tmplist = []
+
+for i in range(len(val),-1,-1):
+    if k[i][W] > k[i-1][W]:
+        tmplist.append(wt[i-1])
+        W -= wt[i-1]
+print tmplist
 
 '''
 time complexity:

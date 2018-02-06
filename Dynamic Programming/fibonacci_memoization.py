@@ -1,4 +1,4 @@
-lookup = [None]*101
+lookup = [None]*30
 
 def fib(n, lookup):
     if n == 0 or n == 1:
@@ -8,3 +8,9 @@ def fib(n, lookup):
         lookup[n] = fib(n-1, lookup) + fib(n-2, lookup)
         
     return lookup[n]
+
+fib(20,lookup)
+print lookup
+
+
+
