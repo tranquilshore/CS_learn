@@ -1,0 +1,32 @@
+1. LCA of 2 nodes:                                                                                  Done
+2. Distance between two nodes in binary tree:                                                       Done Not Video
+3. check if binary tree is BST or not ?
+4. find maxsum in a binary tree (as nodes can have -ve values)                                      Done Not Video
+5. bottom view of binary tree
+6. Given a binary tree print the Kth largest element in it.                                         Done: use min heap,keep storing one by one and remove from heap if top is less than current
+7. Level order tree traversal.                                                                      Done
+8. Convert BST to sum tree.                                                                         BST
+9. Given a Binary Tree, Replace every node with its larger Same as sum tree                         Done Not Video
+10. Given a tree asked to print the path of the tree which has the highest number of bends.         Done Not Video (but only max len)
+11. Path from root to a leaf node forms a number like (root(1)->left(2)->leftLeaf(3) = 123). add all the number for root to leaf.
+12. Print nodes of binary tree in zigzag manner
+13. convert tree to mirror tree
+14. print binary tree in vertical order
+15. make binary treee symmetric
+16. verify BST Tree and print non-compliant node.                                                   BST
+17. Add all greater values to every node in a given BST                                             BST
+18. connect nodes at same Level
+19. Serialize deserialize binary tree
+20. vericle sum in binary tree(space optimized)
+21. print nodes of tree diagonally
+22. Find height of a special binary tree whose leaf nodes are connected
+23. Given a binary tree, how do you remove all the half nodes?
+24. given tree to sum tree                                                                          Done Not Video
+25. BT holds children sum property
+26. boundary order traversal
+27. mirror tree or not
+28. check if two nodes are cousins or not
+29. level order traversal in spiral form
+30. Top view of binary tree
+31. Maximum path sum between two leaves                                                             Done Not Video
+32. Construct Binary Tree from given Parent Array representation                                    Done Not Video
