@@ -15,7 +15,7 @@ def maxpathsumleaves(root):
     ls = maxpathsumleaves(root.left)
     rs = maxpathsumleaves(root.right)
 
-    if root.left is not None and root.left is not None:
+    if root.left is not None and root.right is not None:
         maxpathsumleaves.res = max(maxpathsumleaves.res,ls+rs+root.data)
         return max(ls,rs)+root.data
 
